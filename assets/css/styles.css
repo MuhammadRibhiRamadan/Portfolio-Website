@@ -213,14 +213,17 @@ section {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: radial-gradient(
+  background: 
+    radial-gradient(
       1200px 400px at 10% 20%,
       rgba(255, 255, 255, 0.02),
       transparent 6%
-    ),
-    /* linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(113, 113, 114, 0.6)); */
+    );
+  /* linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(113, 113, 114, 0.6)); */
+
   background-blend-mode: overlay;
   z-index: 0;
+
 }
 
 .hero-overlay {
